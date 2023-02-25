@@ -7,7 +7,7 @@ I also used the MERG (Model Electronic Rail Group) PMP 9 4 way traffic light kit
 https://www.merg.org.uk/
  
  
-This raposatory cantains the codes used for the Youtube video series in playlist below
+This rapository cantains the codes used for the Youtube video series in playlist below
 
 https://www.youtube.com/watch?v=O7069OKVfkY&list=PL2Mz1GBib5Av_d1pUuTq7zQki3rvrgMcg
 
