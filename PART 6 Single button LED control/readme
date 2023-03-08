@@ -1,3 +1,1 @@
-This is just going to control 2 heads of a four head traffic light system it is based on a UK traffic light system and is for fun and educational use only.
-
-To get the last 2 heads to work due to the current draw of the LEDS you would need to use a 2nd chip UNL2003 as this can handle higher current draw. this is also available in the MERG PMP kit and you can see how it is wired in their instructions for the kit. At the current price of £3 it makes a great starter kit.
+This code will change the state of an led
