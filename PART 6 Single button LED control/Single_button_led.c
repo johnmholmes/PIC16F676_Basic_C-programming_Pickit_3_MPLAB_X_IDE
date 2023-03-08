@@ -8,7 +8,7 @@
  * 
  * This code is going to read the state of PIN RA5 and will set pin RC0 as the same state,
  * RC0 will have a LED connected to it with a 330 ohm resistor to ground.
- * RA% will have a switched connected to ground and use a weak internal pull up resistor on the PIC
+ * RA5 will have a switched connected to ground and use a weak internal pull up resistor on the PIC
  */
 // PIC16F676 Configuration Bit Settings
 
