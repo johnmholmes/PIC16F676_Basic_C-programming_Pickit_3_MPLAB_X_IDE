@@ -67,7 +67,7 @@ void main(void) {
         }
         
         if(RA3 == 1)                   // First check to see if the button has been pressed 1 means it is not pressed.
-            _delay(2);                 /* Used for a de-bounce for the button press notice we have set this to 2 clock cycles
+            _delay(2);                 /* Used for a de-bounce for the button press notice we have set this to 2 instruction cycles
                                          by using the _delay() macro if we go to large it will slow the stepper motor down in 
                                         a clockwise direction.*/
             if(RA3 == 1)step ++;       // increases the case value by 1 rotation of stepper motor is clockwise.
