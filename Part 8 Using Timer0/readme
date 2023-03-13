@@ -1,0 +1,7 @@
+#This code will flash 3 leds at different frequencies
+
+RC0 will flash at 1 second
+
+RC1 will flash at 0.5 seconds
+
+RC2 will flash at 0.25 seconds
