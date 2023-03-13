@@ -41,21 +41,24 @@ void __interrupt BLINK()
     usecb++;                    // increment the usecb variable by 1 with every timer0 Roll over
     
     /* The first if statement is waiting for the timer to reach 4000 and then it will toggle the LED on RC0 to the 
-       opposite state and then it resets the counter back to 0 for the next loop*/
+       opposite state and then it resets the counter back to 0 for the next loop
+       This Led will flash at a 1 second frequency*/
     
     if(usec>=4000){
         RC0 = ! RC0;
         usec=0;   }
 
     /* The first if statement is waiting for the timer to reach 2000 and then it will toggle the LED on RC0 to the 
-       opposite state and then it resets the counter back to 0 for the next loop*/
+       opposite state and then it resets the counter back to 0 for the next loop
+       This Led will flash at 0.5 seconds frequency*/
             
     if(useca>=2000){
         RC1 =! RC1;
         useca = 0;
                    }
     /* The first if statement is waiting for the timer to reach 1000 and then it will toggle the LED on RC0 to the 
-       opposite state and then it resets the counter back to 0 for the next loop*/
+       opposite state and then it resets the counter back to 0 for the next loop
+       This Led will flash at 0.25 seconds frequency*/
     
     if(usecb>=1000){
         RC2 = ! RC2;
