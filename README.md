@@ -16,3 +16,5 @@ More codes will be added after each video.
 These codes are my way of doing this sort of programming and is my journey into PIC programming in C. They also serve as a great memory aid for me to look back on as I am not as good a remembering how I do some of this stuff over time. I am not a proffesional coder just a hobbist who likes to learn new things to keep the brain active in retirement.
 
 I am using a Windows 10 laptop with MPLAB X IDE version 5.5 and XC8 version 2.36 to do my progrmming and there maybe some differences between other versions of either software.
+
+#Please be aware that this is an old PIC and Microchip advise using a later designed PIC16F18324 which at some point I may look at covering.
