@@ -17,4 +17,4 @@ These codes are my way of doing this sort of programming and is my journey into 
 
 I am using a Windows 10 laptop with MPLAB X IDE version 5.5 and XC8 version 2.36 to do my progrmming and there maybe some differences between other versions of either software.
 
-#Please be aware that this is an old PIC and Microchip advise using a later designed PIC16F18324 which at some point I may look at covering.
+**Please be aware that this is an old PIC and Microchip advise using a later designed PIC16F18324 which at some point I may look at covering.**
