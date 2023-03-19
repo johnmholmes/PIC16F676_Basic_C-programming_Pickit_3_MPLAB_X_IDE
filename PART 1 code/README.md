@@ -13,3 +13,5 @@ You will have to search for the Errita on there main website.
 https://www.microchip.com/en-us/product/PIC16F676
 
 Attention to the wiring diagram is important to make sure you use the 10k resistor to hold Pin 4 at 5 volts when programming.
+
+You will need to decide if you are going to supply the 5 volts from the Pickit 3 or from a seperate supply. If you use the Pickit 3 you will need to set that up in the project preferences. This will be explained in the next video.
