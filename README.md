@@ -22,4 +22,4 @@ I am not a programmer by trade, but I am someone who likes to have a project to 
 If you find any errors or questions please feel free to contact me either using the issue function or you can use the email address.
 modelrailwayeasy@gmail.com 
 
-Please read the Readme in each of the project folders as these may contain updates that you need to be aware of.
+Please read the Readme in each of the project folders as these may contain updates that you need to be aware of after making the video.
