@@ -1,4 +1,4 @@
-# PIC16F676_Basic_C programming_Pickit_3_MPLAB_X_IDE
+# Part 1 Of The Journey.
 
 In part 1 of my journey was to learn how to connect up the Pic16F676 to the Pickit 3 Since making the video I have been advised to add a 100nF capacitor across the 5 volt line and the ground line so Pins 1 and 14 of the chip. This is to smooth out any noise on the supply and also any noise caused by the operation of the General input output pins (GPIO).
 
