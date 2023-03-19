@@ -1,20 +1,15 @@
 # PIC16F676_Basic_C programming_Pickit_3_MPLAB_X_IDE
 
-Previously I had started to program the PIC16F676 chip using the Pickit 4 with some successbut did have some issues so I swopped over to a Pickit 3 and decided to use a bread board for the experiments.
- 
-I also used the MERG (Model Electronic Rail Group) PMP 9 4 way traffic light kit to supply the various parts I need for the first 5 videos of this series. This kit is available from their website. 
-
-https://www.merg.org.uk/
- 
- 
-This rapository cantains the codes used for the Youtube video series in playlist below
+This repository has been created to accompany my YouTube channel play list.
 
 https://www.youtube.com/watch?v=O7069OKVfkY&list=PL2Mz1GBib5Av_d1pUuTq7zQki3rvrgMcg
-
-More codes will be added after each video.
-
-These codes are my way of doing this sort of programming and is my journey into PIC programming in C. They also serve as a great memory aid for me to look back on as I am not as good a remembering how I do some of this stuff over time. I am not a proffesional coder just a hobbist who likes to learn new things to keep the brain active in retirement.
-
-I am using a Windows 10 laptop with MPLAB X IDE version 5.5 and XC8 version 2.36 to do my progrmming and there maybe some differences between other versions of either software.
-
-**Please be aware that this is an old PIC and Microchip advise using a later designed PIC16F18324 which at some point I may look at covering.**
+This documents my journey into learning to programming the PIC16F676 microcontroller. I am using the Pickit 3 clone as my programmer, and using MPLAB X IDE 5.50 or 6.00 after 19 March 2023. I also installed the XC8 version 2.36 Plugin which allows me to program using the C language.
+The Pic16F676 is an older generation Pic which is known to have some issues when trying to program them with the first Pickit 4. Also Microchip advise the use of the Pic18324 which offers a lot more options with the same number of Pins
+So why am I using the Pic16F676 you may ask and the answer is I already had some of these Pic from MERG (Model Electronic Rail Group) PMP 9 4 way traffic light kit to supply the various parts in the first few videos.
+See https://www.merg.org.uk/
+I am using a Windows 10 laptop when using the programming software and hardware.
+Each new project will have its own folder and inside that will be documents I feel will help explain the projects. 
+Disclaimer
+I am not a programmer by trade, but I am someone who likes to have a project to work on and learn and share the knowledge with other people as I progress.
+If you find any errors or questions please feel free to contact me either using the issue function or you can use the email address.
+modelrailwayeasy@gmail.com 
