@@ -8,7 +8,7 @@ This documents my journey into learning to programming the PIC16F676 microcontro
 
 The Pic16F676 is an older generation Pic which is known to have some issues when trying to program them with the first Pickit 4. Also Microchip advise the use of the Pic18324 which offers a lot more options with the same number of Pins
 
-So why am I using the Pic16F676 you may ask and the answer is I already had some of these Pic from MERG (Model Electronic Rail Group) PMP 9 4 way traffic light kit to supply the various parts in the first few videos.
+So why am I using the Pic16F676 you may ask and the answer is I already had some of these Pic from MERG (Model Electronic Rail Group) PMP 9 a 4 way traffic light kit to supply the various parts in the first few videos.
 
 See https://www.merg.org.uk/
 
