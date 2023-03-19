@@ -2,9 +2,10 @@
 
 In part 1 of my journey was to learn how to connect up the Pic16F676 to the Pickit 3 Since making the video I have been advised to add a 100nF capacitor across the 5 volt line and the ground line so Pins 1 and 14 of the chip. This is to smooth out any noise on the supply and also any noise caused by the operation of the General input output pins (GPIO).
 
+This video shows the setup I use less the capacitor mentioned
 https://youtu.be/O7069OKVfkY
 
-The datasheet is freely available from the Microchip website but also look for the Errita incase there has been any updates since the chip was manufactured.
+The datasheet is freely available from the Microchip website but also look for the errata in case there has been any updates since the chip was manufactured.
 
 http://ww1.microchip.com/downloads/en/devicedoc/40039f.pdf
 
@@ -14,4 +15,6 @@ https://www.microchip.com/en-us/product/PIC16F676
 
 Attention to the wiring diagram is important to make sure you use the 10k resistor to hold Pin 4 at 5 volts when programming.
 
-You will need to decide if you are going to supply the 5 volts from the Pickit 3 or from a seperate supply. If you use the Pickit 3 you will need to set that up in the project preferences. This will be explained in the next video.
+You will need to decide if you are going to supply the 5 volts from the Pickit 3 or from a seaerate supply. If you use the Pickit 3 you will need to set that up in the project preferences. This will be explained in the next video.
+
+Issues and comments welcome.
