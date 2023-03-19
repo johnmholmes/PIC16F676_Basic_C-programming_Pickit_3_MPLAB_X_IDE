@@ -49,7 +49,7 @@ void main(void) {
 
 while(1){                       //Tell the code to loop for ever (1) means TRUE
     LED1 = 0;                   //Turns off led 
-    __delay_ms(200);            //This set the time delay. ** this value will have a upper limit depending on the chip seems 25 seconds max
+    __delay_ms(200);            //This set the time delay. ** this value will have a upper limit depending on the chip 
     LED1 = 1;                   //Turns on led 
     __delay_ms(200);            //delays again
 }                               //Program never gets out of the loop so goes back to just after while(1))    
