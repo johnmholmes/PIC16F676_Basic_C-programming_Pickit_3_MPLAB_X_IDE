@@ -42,9 +42,10 @@ void main(void) {
     //ANSELbits.ANS0 = 0;       //Alternative way to set it       
     TRISC = 0X00;               //Sets all PORTC as outputs C0 To C5
     //TRISC = 0b000000;         //Alternative way to set it 
-    //TRISCbits.TRISC0 = 0;     //Alternative way to set it 
+    //TRISCbits.TRISC0 = 0;     //Alternative way to set a single bit  
     PORTC = 0XFF;               //Sets all PORTC to low on startup
     //PORTC =0b111110;          //Alternative way to set it 
+    // PORTCbits.RC0 = 0;       //Alternative way to set a single bit 
 
 while(1){                       //Tell the code to loop for ever (1) means TRUE
     LED1 = 0;                   //Turns off led 
