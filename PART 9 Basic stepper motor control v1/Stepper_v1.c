@@ -6,6 +6,20 @@
  * 
  * programmed using a Pickit 3
  * MAPLAB version 5.50 XC8 version 2.36
+ 
+ *                              PIC16F676
+ *                    +------------:_:------------+
+ *           5V  -> 1 : VDD                   VSS : 14 <- GND
+ *               <> 2 : RA5/T1CKI     PGD/AN0/RA0 : 13 <- PGD
+ *               <> 3 : RA4/AN3       PGC/AN1/RA1 : 12 <- PGC
+ *           VPP -> 4 : RA3/VPP       int/AN2/RA2 : 11 <> 
+ *               <> 5 : RC5/CPP1          AN4/RC0 : 10 <> Orange PA1
+ *               <> 6 : RC4/C2OUT         AN5/RC1 : 9  <> Yellow PB1
+ *    PB2   Blue <> 7 : RC3/AN7           AN6 RC2 : 8  <> Pink   PA2
+ *                    +---------------------------:
+ *                               DIP-14
+ * 
+ *
  * 
  * This is used to control a 28BYJ-48 5V Stepper Motor ULN2003 Driver Module
  * 
