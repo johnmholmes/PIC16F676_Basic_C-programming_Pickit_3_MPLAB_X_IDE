@@ -37,3 +37,9 @@ The PORTC has 6 available outputs however earlier in the setup we set all the PO
 One thing to remember if we wanted to call one of the values in the Array the first element is [0] and not [1].
 
 ------------------------------------------------------------------------------------------------------------------
+
+# Bitwise operator usage within the code.
+
+state &= 0x07;
+
+keep the state within HalfStep table this is bitwise and modulo, so we have 8 step in the array so once we hit 8 we have 8 MOD 8 =0 and -1 MOD 8 = 7
