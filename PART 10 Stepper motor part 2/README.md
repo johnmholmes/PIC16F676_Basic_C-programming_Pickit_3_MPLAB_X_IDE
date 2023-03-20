@@ -10,7 +10,7 @@ In C programming language, an array is a collection of elements of the same data
 
 In the code you can see the Array being used to control the stepper motor rotation pulses.
 
-      /*  values for HalfSteps             0001, 0011, 0010, 0110, 0100, 1100, 1000, 1001 */
+/*  values for HalfSteps             0001, 0011, 0010, 0110, 0100, 1100, 1000, 1001 */
 
 static const uint8_t HalfSteps[8] = {0x01, 0x03, 0x02, 0x06, 0x04, 0x0C, 0x08, 0x09};
 
