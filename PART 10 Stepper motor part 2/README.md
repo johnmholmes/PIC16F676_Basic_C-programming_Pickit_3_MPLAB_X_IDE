@@ -4,6 +4,8 @@ This program is based on Dans code with extra details and different moves. This 
 
 I have felt it is worth showing as it had some interesting lessons to be learn.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This includes using Arrays and bitwise operators.
 
 In C programming language, an array is a collection of elements of the same data type, which are stored in a block of memory. Each element in the array is accessed by its index, which starts at 0 for the first element and goes up to the size of the array minus one.
@@ -33,3 +35,5 @@ Example 0x01 requires the PIC to set PORTC0 as 1 so at 5 volts and PORTC1-3 as 0
 The PORTC has 6 available outputs however earlier in the setup we set all the PORTC as state 0 so we do not need to worry about the bits 4 & 5.
 
 One thing to remember if we wanted to call one of the values in the Array the first element is [0] and not [1].
+
+------------------------------------------------------------------------------------------------------------------
