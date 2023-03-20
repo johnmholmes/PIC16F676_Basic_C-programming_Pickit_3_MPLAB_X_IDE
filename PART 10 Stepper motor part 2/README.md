@@ -1,4 +1,4 @@
-# Part 10 Conrolling the number of steps and the  direction as well as the speed of the motor.
+# Part 10 Controlling the number of steps and the direction as well as the speed of the stepper motor.
 
 This program is based on Dans code with extra details and different moves. This came about due to a post I made on the Micrcochip forum and mentioning what I was hoping to do. His code has been developed with other Items since.
 
