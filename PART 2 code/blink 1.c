@@ -32,25 +32,26 @@
 #pragma config CP = OFF         // Code Protection bit (Program Memory code protection is disabled)
 #pragma config CPD = OFF        // Data Code Protection bit (Data memory code protection is disabled)
 
-#include <xc.h>                 //Include the xc8 library used for the __delay_ms()macro
-#define _XTAL_FREQ 4000000      //Set the oscilator to 4 mhz
-#define LED1 RC0                //Sets up the led on pin 10 / RC0 and we can us LED1 in the code
+#include <xc.h>                 // Include the xc8 library used for the __delay_ms()macro
+#define _XTAL_FREQ 4000000      // Set the oscilator to 4 mhz
+#define LED1 RC0                // Sets up the led on pin 10 / RC0 and we can us LED1 in the code
+
 
 void main(void) {
-    ANSEL = 0x00;               //Sets All pins are digital pins 
-    //ANSEL = 0b00000000;       //Alternative way to set it
-    //ANSELbits.ANS0 = 0;       //Alternative way to set it       
-    TRISC = 0X00;               //Sets all PORTC as outputs C0 To C5
-    //TRISC = 0b000000;         //Alternative way to set it 
-    //TRISCbits.TRISC0 = 0;     //Alternative way to set a single bit  
-    PORTC = 0XFF;               //Sets all PORTC to low on startup
-    //PORTC =0b111110;          //Alternative way to set it 
-    // PORTCbits.RC0 = 0;       //Alternative way to set a single bit 
+    ANSEL = 0x00;               // Sets All pins are digital pins 
+    //ANSEL = 0b00000000;       // Alternative way to set it
+    //ANSELbits.ANS0 = 0;       // Alternative way to set a single bit       
+    TRISC = 0X00;               // Sets all PORTC as outputs C0 To C5
+    //TRISC = 0b000000;         // Alternative way to set it 
+    //TRISCbits.TRISC0 = 0;     // Alternative way to set a single bit 
+    PORTC = 0XFF;               // Sets all PORTC to low on startup
+    //PORTC =0b111110;          // Alternative way to set it 
+    //PORTCbits.RC0 = 0;        // Alternative way to set a single bit 
 
-while(1){                       //Tell the code to loop for ever (1) means TRUE
-    LED1 = 0;                   //Turns off led 
-    __delay_ms(200);            //This set the time delay. ** this value will have a upper limit depending on the chip 
-    LED1 = 1;                   //Turns on led 
-    __delay_ms(200);            //delays again
-}                               //Program never gets out of the loop so goes back to just after while(1))    
+while(1){                       // Starts the main loop
+    LED1 = 0;                   // Turns off led 
+    __delay_ms(200);            // This set the time delay. ** this value will have a upper limit depending on the chip seems 25 seconds max
+    LED1 = 1;                   // Turns on led 
+    __delay_ms(200);            // delays again
+}                               // Program never gets out of the loop so goes back to just after while(1))    
 }
