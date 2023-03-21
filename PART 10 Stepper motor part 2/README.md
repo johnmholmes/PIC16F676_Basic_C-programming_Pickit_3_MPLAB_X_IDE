@@ -50,4 +50,10 @@ One thing to remember if we wanted to call one of the values in the Array the fi
 
 state &= 0x07;
 
-keep the state within HalfSteps table this is bitwise and modulo, so we have 8 step in the array so once we hit 8 we have 8 MOD 8 =0 and -1 MOD 8 = 7
+a bitwise operation that performs a bitwise AND between the variable "state" and the hexadecimal value "0x07".
+
+In binary, "0x07" is represented as "00000111", which means that this operation will only keep the three least significant bits of the "state" variable and set all other bits to zero.
+
+Therefore, this operation is commonly used to mask or clear out the upper bits of a variable, ensuring that only the lower bits hold relevant information.
+
+this keeps the state within HalfSteps table this is bitwise and modulo, so we have 8 step in the array so once we hit 8 we have 8 MOD 8 =0 and -1 MOD 8 = 7
