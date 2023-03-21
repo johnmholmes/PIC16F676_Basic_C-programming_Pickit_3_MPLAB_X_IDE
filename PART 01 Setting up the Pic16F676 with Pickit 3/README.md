@@ -1,6 +1,6 @@
 # Part 1 Of The Journey.
 
-In part 1 of my journey was to learn how to connect up the Pic16F676 to the Pickit 3 Since making the video I have Added a 100nF capacitor across the 5V and GND pins (pins 1 and 14) of the PIC16F676 microcontroller.
+In part 1 of my journey was to learn how to connect up the Pic16F676 to the Pickit 3. Since making the video I have Added a 100nF capacitor across the 5V and GND pins (pins 1 and 14) of the PIC16F676 microcontroller.
 
 When a microcontroller switches its GPIO pins on and off, it can cause spikes or dips in the voltage supply, known as noise. This noise can potentially affect the performance of the microcontroller and any connected devices.
 
