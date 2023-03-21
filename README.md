@@ -6,9 +6,13 @@ https://www.youtube.com/watch?v=O7069OKVfkY&list=PL2Mz1GBib5Av_d1pUuTq7zQki3rvrg
 
 This documents my journey into learning to programming the PIC16F676 microcontroller. I am using the Pickit 3 clone as my programmer, and using MPLAB X IDE 5.50 or 6.00 after 19 March 2023. I also installed the XC8 version 2.36 Plugin which allows me to program using the C language.
 
-The Pic16F676 is an older generation Pic which is known to have some issues when trying to program them with the first Pickit 4. Also Microchip advise the use of the Pic18324 which offers a lot more options with the same number of Pins
+The PIC16F676 is an older generation microcontroller, and while it is still a popular choice for many projects, it may have some limitations compared to newer microcontrollers. However, it can still be a good choice for simple projects that don't require a lot of processing power or advanced features.
 
-So why am I using the Pic16F676 you may ask and the answer is I already had some of these Pic from MERG (Model Electronic Rail Group) PMP 9 a 4 way traffic light kit to supply the various parts in the first few videos.
+It's good to be aware that some users have reported issues when programming the PIC16F676 with the first version of the Pickit 4 programmer. However, the Pickit 3 should be able to program the microcontroller without any issues.
+
+Additionally, it's worth noting that Microchip does recommend using the PIC16F18324 microcontroller for new designs, as it offers more features and capabilities than the PIC16F676 while still having the same number of pins. However, if you already have the PIC16F676 and it meets your project requirements, it can still be a good choice.
+
+So why am I using the Pic16F676 you may ask and the answer is I already had some of these Pic from MERG (Model Electronic Rail Group) PMP 9 a 4 way traffic light kit to supply the various parts in the first few videos. Also using a simpler microcontroller like the PIC16F676 can have some benefits, such as being easier to learn and understand, having fewer components to connect and debug, and using less power. Additionally, you may be able to reuse the knowledge and code you learn with the PIC16F676 in future projects, regardless of the specific microcontroller you use.
 
 See https://www.merg.org.uk/
 
