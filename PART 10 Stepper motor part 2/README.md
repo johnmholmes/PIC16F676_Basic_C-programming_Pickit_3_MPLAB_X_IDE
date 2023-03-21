@@ -2,6 +2,14 @@
 
 This program is based on Dans code with extra details and different moves. This came about due to a post I made on the Micrcochip forum and mentioning what I was hoping to do. His code has been developed with other Items since.
 
+This is a C code for a stepper motor driver, specifically for driving a bipolar stepper motor. The code is written for the PIC16F676 microcontroller and was compiled using the XC8 compiler.
+
+The code initializes the PIC16F676, sets up the configuration bits, and defines the system clock frequency using the _XTAL_FREQ macro. It then defines an interrupt handler, but the function is empty, so the interrupt is not used.
+
+The main function initializes the stepper motor driver by setting the input and output pins for the PIC microcontroller, and then it waits for 500 milliseconds before proceeding. The stepper motor is driven using a sequence of half-steps, and the sequence is defined in the comments in the code.
+
+Overall, this code is a basic stepper motor driver for a bipolar stepper motor. The code could be modified for different stepper motors by adjusting the sequence of half-steps. The code could also be modified to include additional features, such as acceleration and deceleration, to provide more precise control over the stepper motor.
+
 I have felt it is worth showing as it had some interesting lessons to be learn.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
