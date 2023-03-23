@@ -81,9 +81,9 @@ void Init_PIC(void)
      */
 }
 /*
- * Interrupt handlers this has no code to be called in the function but we use the interrupt timer for
- * the delay timing.
- */
+ * Interrupt handlers this has no code to be called in the function At present this function is a placeholder 
+ * for implementation of future functionality. */
+
 void __interrupt() ISR_Handler(void)
 {
 }
