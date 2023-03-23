@@ -54,13 +54,17 @@ void Init_PIC(void)
     VRCON = 0x00;         /* VOLTAGE REFERENCE CONTROL REGISTER set to 0 */
 
     ADCON1 = 0x10;        /* set FOSC/8 as ADC clock source */
-    ADCON0 = 0x80;        /* Right justified, External VREF, select channel 0 and turn off ADC */
+    ADCON0 = 0x80;        /* Right justified, VREF is VDD, select channel 0 and turn off ADC */
     ANSEL  = 0x03;        /* set RA0,RA1 as analogue inputs, all others as digital */
     ADCON0bits.ADON = 1;  /* A/D converter module is operating */
     ADCON0bits.GO_nDONE = 1;  /* A/D conversion cycle in progress. Setting this bit starts an A/D conversion cycle.
                                * This bit is automatically cleared by hardware when the A/D conversion has completed. */
     
-    __delay_ms(500);      /* wait for ICD before making PGC and PGD outputs */
+    __delay_ms(500);      /* wait for ICD before making PGC and PGD outputs  Because the code that Microchip provides to control device programming tools like the PICkit3
+                           *is kind of problematic it lets the user application run for a bit. 
+                           *When this happens on a PIC16F676 and the controller sets the GPIO lines used for PGD and PGC 
+                           *to outputs too soon the attempt to program the target device could fail and leave the controller bricked 
+                           *in a way that can be hard to recover.*/
 
     
     OPTION_REG = 0x51;    /* Select FOSC/4 as clock source for TIMER0 and 1:4 prescaler, enable pull-ups on PORTA */
