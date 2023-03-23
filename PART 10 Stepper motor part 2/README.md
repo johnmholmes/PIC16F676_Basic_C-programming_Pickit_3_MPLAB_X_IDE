@@ -3,7 +3,7 @@
 This program is based on Dans code with extra details and different moves. This came about due to a post I made on the Micrcochip forum and mentioning what I was hoping to do. His code has been developed with other Items since.
 
 ----------------
-Inportant changes since making the video
+# Inportant changes since making the video
 
 At time code 4:42:
 
@@ -27,6 +27,7 @@ A description of the interrupt handler function begins.
 The description is somewhat misleading and TIMER0 is mentioned in this context. This is misleading because this application does not enable any interrupts. At present this function is a placeholder for implementation of future functionality.
 
 -------------
+# Basic information
 
 This is a C code for a stepper motor driver, specifically for driving a bipolar stepper motor. The code is written for the PIC16F676 microcontroller and was compiled using the XC8 compiler.
 
