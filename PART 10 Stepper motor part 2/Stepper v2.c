@@ -54,7 +54,7 @@ void Init_PIC(void)
     VRCON = 0x00;         /* VOLTAGE REFERENCE CONTROL REGISTER set to 0 */
 
     ADCON1 = 0x10;        /* set FOSC/8 as ADC clock source */
-    ADCON0 = 0x80;        /* Right justified, External VREF, select channel 0 and turn off ADC 0xC0 */
+    ADCON0 = 0x80;        /* Right justified, External VREF, select channel 0 and turn off ADC */
     ANSEL  = 0x03;        /* set RA0,RA1 as analogue inputs, all others as digital */
     ADCON0bits.ADON = 1;  /* A/D converter module is operating */
     ADCON0bits.GO_nDONE = 1;  /* A/D conversion cycle in progress. Setting this bit starts an A/D conversion cycle.
