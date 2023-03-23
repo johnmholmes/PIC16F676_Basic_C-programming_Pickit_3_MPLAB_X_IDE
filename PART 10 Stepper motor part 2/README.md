@@ -2,6 +2,32 @@
 
 This program is based on Dans code with extra details and different moves. This came about due to a post I made on the Micrcochip forum and mentioning what I was hoping to do. His code has been developed with other Items since.
 
+----------------
+Inportant changes since making the video
+
+At time code 4:42:
+
+Line 57, ADCON0 = 0x80; is described as to how it affect the Analog to Digital Converter.
+
+What you say about this statement is what the comment on in the source code says. This is a problem as the comment, /* Right justified, External VREF, select channel 0 and turn off ADC */ is not correct. The correct comment is: /* Right justified, VREF is VDD, select channel 0 and turn off ADC */
+
+At time code 5:44:
+
+Line 63, __delay_ms(500); is described. The description is accurate but does not explain why this delay is present.
+
+Because the code that Microchip provides to control device programming tools like the PICkit3 is kind of crap it lets the user application run for a bit. When this happens on a PIC16F676 and the controller sets the GPIO lines used for PGD and PGC to outputs too soon the attempt to program the target device could fail and leave the controller bricked in a way that can be hard to recover.
+
+To make this problem less likely a delay of 500 milliseconds after a device reset is helpful.
+
+At time code 8:00:
+
+A description of the interrupt handler function begins.
+
+
+The description is somewhat misleading and TIMER0 is mentioned in this context. This is misleading because this application does not enable any interrupts. At present this function is a placeholder for implementation of future functionality.
+
+-------------
+
 This is a C code for a stepper motor driver, specifically for driving a bipolar stepper motor. The code is written for the PIC16F676 microcontroller and was compiled using the XC8 compiler.
 
 The code initializes the PIC16F676, sets up the configuration bits, and defines the system clock frequency using the _XTAL_FREQ macro. It then defines an interrupt handler, but the function is empty, so the interrupt is not used.
