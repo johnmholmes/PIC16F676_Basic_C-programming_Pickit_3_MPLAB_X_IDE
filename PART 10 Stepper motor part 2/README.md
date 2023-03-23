@@ -15,7 +15,7 @@ At time code 5:44:
 
 Line 63, __delay_ms(500); is described. The description is accurate but does not explain why this delay is present.
 
-Because the code that Microchip provides to control device programming tools like the PICkit3 is kind of crap it lets the user application run for a bit. When this happens on a PIC16F676 and the controller sets the GPIO lines used for PGD and PGC to outputs too soon the attempt to program the target device could fail and leave the controller bricked in a way that can be hard to recover.
+Because the code that Microchip provides to control device programming tools like the PICkit3 is kind of problematic it lets the user application run for a bit. When this happens on a PIC16F676 and the controller sets the GPIO lines used for PGD and PGC to outputs too soon the attempt to program the target device could fail and leave the controller bricked in a way that can be hard to recover.
 
 To make this problem less likely a delay of 500 milliseconds after a device reset is helpful.
 
