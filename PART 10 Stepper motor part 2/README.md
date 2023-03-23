@@ -27,6 +27,13 @@ A description of the interrupt handler function begins.
 The description is somewhat misleading and TIMER0 is mentioned in this context. This is misleading because this application does not enable any interrupts. At present this function is a placeholder for implementation of future functionality.
 
 -------------
+
+# Please see the doc folder for the various Register usages.
+
+Update will appear in this folder.
+
+------------
+
 # Basic information
 
 This is a C code for a stepper motor driver, specifically for driving a bipolar stepper motor. The code is written for the PIC16F676 microcontroller and was compiled using the XC8 compiler.
