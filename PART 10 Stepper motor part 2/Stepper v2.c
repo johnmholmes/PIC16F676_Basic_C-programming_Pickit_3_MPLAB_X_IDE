@@ -68,7 +68,7 @@ void Init_PIC(void)
 
     
     OPTION_REG = 0x51;    /* Select FOSC/4 as clock source for TIMER0 and 1:4 prescaler, enable pull-ups on PORTA */
-    WPUA = 0x3C;          /* Turn off weak pull-ups on RA0,RA1 00111100 */
+    WPUA = 0x34;          /* Turn off weak pull-ups on RA0,RA1 00110100 */
     TRISA = 0xFF;         /* Set PORTA RA0,RA1,RA2,RA4,RA5 as inputs */
     TRISC = 0x30;         /* Set PORTC RC0,RC1,RC2,RC3 as outputs */
     PORTC = 0;            /* turn off drivers to stepper motor */
