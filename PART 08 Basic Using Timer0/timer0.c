@@ -42,7 +42,7 @@ void __interrupt BLINK()
     
     /* The first if statement is waiting for the timer to reach 4000 and then it will toggle the LED on RC0 to the 
        opposite state and then it resets the counter back to 0 for the next loop
-       This Led will flash at a 1 second frequency*/
+       This Led will flash at a 1 second frequency Maths  1000000 microseconds/250 microseconds = 4000 */
     
     if(usec>=4000){
         RC0 = ! RC0;
@@ -50,7 +50,7 @@ void __interrupt BLINK()
 
     /* The first if statement is waiting for the timer to reach 2000 and then it will toggle the LED on RC0 to the 
        opposite state and then it resets the counter back to 0 for the next loop
-       This Led will flash at 0.5 seconds frequency*/
+       This Led will flash at 0.5 seconds frequency */
             
     if(useca>=2000){
         RC1 =! RC1;
@@ -58,7 +58,7 @@ void __interrupt BLINK()
                    }
     /* The first if statement is waiting for the timer to reach 1000 and then it will toggle the LED on RC0 to the 
        opposite state and then it resets the counter back to 0 for the next loop
-       This Led will flash at 0.25 seconds frequency*/
+       This Led will flash at 0.25 seconds frequency */
     
     if(usecb>=1000){
         RC2 = ! RC2;
